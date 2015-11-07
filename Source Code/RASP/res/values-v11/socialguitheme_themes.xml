@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="SocialGUITheme" parent="Theme.Raspactionbar">
+
+    <item name="android:editTextBackground">@drawable/edit_text_holo_light</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewSocialGUITheme</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonSocialGUITheme</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonSocialGUITheme</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerSocialGUITheme</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarSocialGUITheme</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarSocialGUITheme</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarSocialGUITheme</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigSocialGUITheme</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallSocialGUITheme</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleSocialGUITheme</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/activated_background_holo_light</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_holo</item>
+
+  </style>
+
+</resources>

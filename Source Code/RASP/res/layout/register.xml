@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp" >
+
+    <ImageButton
+        android:id="@+id/ribProfile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/profile"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop" />"
+
+    <EditText
+        android:id="@+id/retEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="emailid@domain.com"
+        android:value="email@domaium.com" >
+
+        <requestFocus />
+    </EditText>
+    
+    <EditText
+        android:id="@+id/retPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:value="password" />
+
+    <EditText
+        android:id="@+id/retConfirmPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="confirm password"
+        android:value="password" />
+
+    <EditText
+        android:id="@+id/retName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="FirstName LastName"
+        android:value="Test Account" />
+
+    <EditText
+        android:id="@+id/retDOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="DOB (YYYY/MM/DD)"
+        android:value="1991/10/18" />
+
+    <Button
+        android:id="@+id/rbRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+</LinearLayout>

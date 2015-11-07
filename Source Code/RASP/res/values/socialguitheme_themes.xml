@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="SocialGUITheme" parent="Theme.Raspactionbar">
+
+    <item name="android:editTextStyle">@style/EditTextSocialGUITheme</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewSocialGUITheme</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxSocialGUITheme</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonSocialGUITheme</item>
+
+    <item name="android:buttonStyle">@style/ButtonSocialGUITheme</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonSocialGUITheme</item>
+
+    <item name="android:spinnerStyle">@style/SpinnerSocialGUITheme</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerSocialGUITheme.DropDown</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemSocialGUITheme</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarSocialGUITheme</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarSocialGUITheme</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarSocialGUITheme</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigSocialGUITheme</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallSocialGUITheme</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleSocialGUITheme</item>
+
+    <item name="android:listViewStyle">@style/ListViewSocialGUITheme</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewSocialGUITheme.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemSocialGUITheme</item>
+
+  </style>
+
+</resources>
